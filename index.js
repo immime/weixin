@@ -226,7 +226,7 @@ $(function() {
         var num = 0;
         $.each(arr, function(i, imgSrc) {
             var imgObj = new Image();
-            imgObj.src = 'img/' + arr[i];
+            imgObj.src = 'img/' + imgSrc;
             imgObj.onload = function() {
                 num++;
                 if (num == arr.length) {
